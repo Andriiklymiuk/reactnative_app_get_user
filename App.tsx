@@ -5,19 +5,15 @@
  * @format
  */
 
-import React, {useEffect} from 'react';
+import React from 'react';
 import {
   ActivityIndicator,
   SafeAreaView,
-  ScrollView,
-  StatusBar,
   StyleSheet,
   Text,
-  useColorScheme,
   View,
 } from 'react-native';
 
-import {Colors, Header} from 'react-native/Libraries/NewAppScreen';
 import {GO_SERVER_USER_DATA_URL} from '@env';
 import {
   QueryClient,
